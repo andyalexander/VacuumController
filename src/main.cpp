@@ -21,7 +21,7 @@ float AV_PRESSURE = 0;
 float LAST_PRESSURE = 0;
 float PRESSURE_TOLERANCE = 0.02;
 //float TARGET_PRESSURE = 84.5;
-float TARGET_PRESSURE = 1;
+float TARGET_PRESSURE = 70;
 
 float calc_pressure(int voltage) {
   float temp = (float)voltage *  ((float)ADC_VOLTAGE / (float)ADC_RESOLUTION);
